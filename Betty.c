@@ -1,7 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-	printf("Betty Checks Ella");
-	return 0;
+    printf("Betty Checks Ella\n");
+    return 0;
 }
