@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include <stdio.h>
 
 /**
@@ -7,6 +8,6 @@
  */
 int main(void)
 {
-    printf("Betty Checks Ella\n");
+    write(1, "Betty Checks Ella\n", 18);
     return 0;
 }
